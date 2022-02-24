@@ -41,3 +41,12 @@
 		}, 4000);
 
 		new WOW().init();
+
+		// for counter section
+		$(document).ready(function(){
+			$(".counter1").counterUp({
+				delay: 20,
+				time: 2000
+
+			});
+		});

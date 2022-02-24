@@ -540,6 +540,16 @@ a.nav-link:hover {
     }
 }
 
+@media (max-width: 440px){
+    #about .abox .image img {
+        width: 100%;
+        display: block;
+        text-align: center;
+    
+    } 
+}
+
+
 
 
 
@@ -711,6 +721,209 @@ a.nav-link:hover {
     letter-spacing: 1px;
     font-weight: 650;
 }
+
+/* counter section */
+
+#counter {
+	/* background:  linear-gradient(rgba(247, 165, 255, 0.548), rgba(255, 46, 238, 0.445));;	 */
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	height: 80vh;
+}
+
+.item1 {
+	width: 23%;
+	height: 30%;
+	text-align: center;
+	border: 1px dotted #ccc;
+	padding: 10px;
+	background: rgba(255, 255, 255, 0.29);
+	
+
+}
+
+.item1 header .icon {
+	font-size: 2.1rem;
+}
+
+.item1 main .counter1 {
+	font-size: 2.2rem;
+}
+
+.item1 main h5 {
+	font-size: 1.2rem;
+	font-weight: 400;
+}
+
+
+.item2 {
+	width: 23%;
+	height: 30%;
+	text-align: center;
+	border: 1px dotted #ccc;
+	padding: 10px;
+	background: rgba(255, 255, 255, 0.29);
+
+}
+
+.item2 header .icon {
+	font-size: 2.1rem;
+}
+
+.item2 main .counter1 {
+	font-size: 2.2rem;
+}
+
+.item2 main h5 {
+	font-size: 1.2rem;
+	font-weight: 400;
+}
+
+.item3 {
+	width: 23%;
+	height: 30%;
+	text-align: center;
+	border: 1px dotted #ccc;
+	padding: 10px;
+	background: rgba(255, 255, 255, 0.29);
+
+}
+
+.item3 header .icon {
+	font-size: 2.1rem;
+}
+
+.item3 main .counter1 {
+	font-size: 2.2rem;
+}
+
+.item3 main h5 {
+	font-size: 1.2rem;
+	font-weight: 400;
+}
+
+.item4 {
+	width: 23%;
+	height: 30%;
+	text-align: center;
+	border: 1px dotted #ccc;
+	padding: 10px;
+	background: rgba(255, 255, 255, 0.29);
+
+}
+
+.item4 header .icon {
+	font-size: 2.1rem;
+}
+
+.item4 main .counter1 {
+	font-size: 2.2rem;
+}
+
+.item4 main h5 {
+	font-size: 1.2rem;
+	font-weight: 400;
+}
+
+
+@media screen and (max-width: 992px){
+	#counter {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		align-items: center;
+		height: 80vh;
+
+	}
+
+	.item1 {
+		width: 35%;
+		height: 25%;
+		text-align: center;
+		margin: 20px;
+		padding: 10px 0px 20px 0px;
+	}
+
+	.item1 header .icon {
+		font-size: 1.2rem;
+	}
+	
+	.item1 main .counter1 {
+		font-size: 1.2rem;
+	}
+	
+	.item1 main h5 {
+		font-size: 1.2rem;
+		font-weight: 300;
+	}
+
+	.item2 {
+		width: 35%;
+		height: 25%;
+		text-align: center;
+		margin: 20px;
+		padding: 10px 0px 20px 0px;
+	}
+	.item2 header .icon {
+		font-size: 1.2rem;
+	}
+	
+	.item2 main .counter1 {
+		font-size: 1.2rem;
+	}
+	
+	.item2 main h5 {
+		font-size: 1.2rem;
+		font-weight: 300;
+	}
+
+	.item3 {
+		width: 35%;
+		height: 25%;
+		text-align: center;
+		margin: 20px;
+		padding: 10px 0px 20px 0px;
+	}
+
+	.item3 header .icon {
+		font-size: 1.2rem;
+	}
+	
+	.item3 main .counter1 {
+		font-size: 1.2rem;
+	}
+	
+	.item3 main h5 {
+		font-size: 1.2rem;
+		font-weight: 300;
+	}
+
+	.item4 {
+		width: 35%;
+		height: 25%;
+		text-align: center;
+		margin: 20px;
+		padding: 10px 0px 20px 0px;
+	}
+	.item4 header .icon {
+		font-size: 1.2rem;
+	}
+	
+	.item4 main .counter1 {
+		font-size: 1.2rem;
+	}
+	
+	.item4 main h5 {
+		font-size: 1.2rem;
+		font-weight: 300;
+	}
+
+}
+
 
 /* new contact design */
 
@@ -1025,8 +1238,44 @@ section#contact .container .contactform .form-box .inputbx input[type="submit"]:
         justify-content: space-between;
         
     }
+    
+}
 
-    section#contact .container .contact-infos .social-icons-all-contact ul li {
-        margin-left: 16px;
+@media (max-width: 380px){
+    section#contact .container .contact-infos ul.info {
+        width: 310px;
+        text-align: start;
+        padding: 0px 100px 0px 0px;
     }
+    
+    section#contact .container .contact-infos h2 {
+        font-size: 20px;
+        font-weight: normal;
+    }
+    
+    section#contact .container .contact-infos span {
+        font-size: 13px;
+    
+    }
+}
+ 
+
+
+@media (max-width: 380px){
+    section#contact .container .contact-infos .social-icons-all-contact ul li {
+        margin-left: 2px;
+    }
+    
+    section#contact .container .contact-infos .social-icons-all-contact ul {
+        width: 310px;
+        padding: 0px 0px 0px 0px;
+    
+    }
+    
+    section#contact .container .contact-infos .social-icons-all-contact ul li a {
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+    }
+    
 }
