@@ -501,7 +501,7 @@ a.nav-link:hover {
 
 @media (max-width: 600px){
     #skill {
-        height: 125vh;
+        height: 127vh;
     }
     #skill .container-skills {
         width: 100%;
@@ -1238,7 +1238,7 @@ section#contact .container .contactform .form-box .inputbx input[type="submit"]:
         justify-content: space-between;
         
     }
-    
+
 }
 
 @media (max-width: 380px){
