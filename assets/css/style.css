@@ -924,6 +924,12 @@ a.nav-link:hover {
 
 }
 
+@media screen and (max-width: 600px){
+    #counter {
+        display: block;
+    }
+}
+
 
 /* new contact design */
 
